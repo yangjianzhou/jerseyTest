@@ -96,8 +96,8 @@
       <file leaf-file-name="TestHashTable.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/test/collection/TestHashTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31893688">
-              <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.33887044">
+              <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -1210,12 +1210,12 @@
       <workItem from="1457965269264" duration="2241000" />
       <workItem from="1458996542786" duration="3570000" />
       <workItem from="1459342261933" duration="24000" />
-      <workItem from="1459342769246" duration="402000" />
+      <workItem from="1459342769246" duration="482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63072000" />
+    <option name="totallyTimeSpent" value="63152000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1713,8 +1713,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/collection/TestHashTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31893688">
-          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.33887044">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
           <folding />
         </state>
       </provider>
