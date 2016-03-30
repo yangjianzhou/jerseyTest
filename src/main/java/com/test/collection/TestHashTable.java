@@ -13,8 +13,8 @@ public class TestHashTable {
         System.out.println(hashtable.get("1"));*/
 
         System.out.println(5&6);
-
-
-        
+        System.out.println(5&6);
+        System.out.println(5&6);
+        System.out.println(5&6);
     }
 }
