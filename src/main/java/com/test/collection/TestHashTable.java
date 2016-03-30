@@ -1,7 +1,5 @@
 package com.test.collection;
 
-import java.util.Hashtable;
-
 /**
  * Created by yangjianzhou on 16-3-6.
  */
@@ -16,6 +14,7 @@ public class TestHashTable {
         System.out.println(5&6);
         System.out.println(5&6);
         System.out.println(5&6);
+
         System.out.println("DEV_20160326 ");
         System.out.println("DEV_20160326 ");
         System.out.println("DEV_20160326 ");
@@ -23,5 +22,10 @@ public class TestHashTable {
         System.out.println("DEV_20160326 ");
         System.out.println("DEV_20160326 ");
         System.out.println("DEV_20160326 ");
+
+        System.out.println("this is branch DEV_20160327");
+        System.out.println("this is branch DEV_20160327");
+        System.out.println("this is branch DEV_20160327");
+
     }
 }
