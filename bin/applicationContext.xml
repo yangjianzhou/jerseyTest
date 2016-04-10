@@ -2,12 +2,46 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
        xmlns:context="http://www.springframework.org/schema/context"
 
        xsi:schemaLocation="http://www.springframework.org/schema/beans
             http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
             http://www.springframework.org/schema/mvc
-              http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
+            http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
             http://www.springframework.org/schema/context
-            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd
+            http://www.springframework.org/schema/tx
+            http://www.springframework.org/schema/tx/spring-tx.xsd
+            http://www.springframework.org/schema/aop
+            http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--扫描指定的包，将包中标注了注解@Component, @Repository, @Service, and @Controller的类注册到spring容器中，使之成为可识别的bean-->
+    <!--如果要使得@Required,@Autowired, @PostConstruct, @PreDestroy, @Resource, @PersistenceContext and @PersistenceUnit起作用，则需要配合annotation-config一起使用-->
+    <context:component-scan base-package="com.yangjianzhou"/>
+
+    <!--激活@Required,@Autowired, @PostConstruct, @PreDestroy, @Resource, @PersistenceContext and @PersistenceUnit，使得它们能够被component-scan探测到-->
+    <!--annotation-config不能激活@Transactional，如果需要激活@Transactional这个标签，则需要使用tx:annotation-driven-->
+    <context:annotation-config />
+
+    <!--使得@AspectJ等Spring AOP样式可以使用，这里设置为true，表示使用CGLIB来实现动态代理，这种方式是继承父类来实现的，类创建效率低，但是运行效率高-->
+    <!--使用JDK方式实现的东大代理需要被代理类实现接口，生成的代理类实现该接口，代理类的生成效率高，但是调用效率低-->
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
+
+    <bean id="appProperties" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+        <property name="locations">
+            <list>
+                <value>classpath:jerseyTest.properties</value>
+            </list>
+        </property>
+    </bean>
+
+    <!-- 声明使用注解式事务,@Transactional会有效 -->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+
 </beans>
