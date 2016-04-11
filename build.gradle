@@ -23,10 +23,14 @@ dependencies {
     compile 'org.springframework:spring-web:3.0.5.RELEASE'
     compile 'org.springframework:spring-webmvc:3.0.5.RELEASE'
     compile 'org.springframework:spring-tx:3.0.5.RELEASE'
+    compile 'org.springframework:spring-orm:3.0.5.RELEASE'
 
     compile 'org.apache.commons:commons-dbcp2:2.1.1'
-
+    compile 'org.apache.commons:commons-lang3:3.4'
+    compile 'org.mybatis:mybatis:2.3.5'
     compile 'com.sun.jersey.contribs:jersey-spring:1.19.1'
+
+    compile 'com.google.guava:guava:19.0'
 
     compile 'com.sun.jersey:jersey-core:1.19'
     compile 'com.sun.jersey:jersey-server:1.19'
