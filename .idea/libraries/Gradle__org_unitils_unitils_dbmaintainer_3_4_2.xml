@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.unitils:unitils-dbmaintainer:3.4.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.unitils/unitils-dbmaintainer/3.4.2/6aa5f6e1207b7465bea35a24b0b736d0a377560c/unitils-dbmaintainer-3.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.unitils/unitils-dbmaintainer/3.4.2/127af90efc510ecaa6b1e457f0d7ee03bbcb9181/unitils-dbmaintainer-3.4.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.unitils/unitils-dbmaintainer/3.4.2/bf3132d8ef3078c1726152fbf7dce4bbdb5fd90e/unitils-dbmaintainer-3.4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

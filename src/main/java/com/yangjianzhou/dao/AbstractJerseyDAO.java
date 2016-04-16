@@ -9,7 +9,7 @@ import org.springframework.orm.ibatis.SqlMapClientTemplate;
  */
 public abstract class AbstractJerseyDAO extends BaseDAO{
     @Autowired
-    @Qualifier("sqlMapClientTemplate_trs")
+    @Qualifier("sqlMapClientTemplate")
     private SqlMapClientTemplate sqlMapClientTemplate;
 
     @Override
