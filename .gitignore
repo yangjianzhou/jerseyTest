@@ -8,6 +8,7 @@ out
 .gradle*
 .idea
 .idea/*
+.idea*
 .classpath
 .project
 .settings/
