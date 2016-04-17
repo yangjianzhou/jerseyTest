@@ -1,21 +1,23 @@
-package com.yangjianzhou.controller;
+package com.yangjianzhou.resource;
 
-import com.google.gson.Gson;
 import com.sun.jersey.api.core.InjectParam;
+import com.yangjianzhou.bean.ResultGson;
 import com.yangjianzhou.dto.ProductDTO;
 import com.yangjianzhou.service.ProductService;
 
-import javax.ws.rs.*;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 import java.util.List;
 
 /**
- * Created by yangjianzhou on 16-4-10.
+ * Created by yangjianzhou on 16-4-17.
  */
 
 @Path("test")
-public class TestController {
-
+public class ProductApiResource {
     @InjectParam
     private ProductService productService ;
 
@@ -30,9 +32,9 @@ public class TestController {
     @GET
     @Path("get-all")
     @Produces(MediaType.APPLICATION_JSON)
-    public String getAllProduct(){
-       List<ProductDTO>  productDTOs = productService.getAllProduct();
-        return new Gson().toJson(productDTOs);
+    public ResultGson<List<ProductDTO>> getAllProduct(){
+        ResultGson<List<ProductDTO>> resultGson = productService.getAllProduct();
+        return resultGson;
     }
 
     @GET
@@ -42,4 +44,5 @@ public class TestController {
         productService.updateProductName(id , version , name);
         return "PENDING";
     }
+
 }

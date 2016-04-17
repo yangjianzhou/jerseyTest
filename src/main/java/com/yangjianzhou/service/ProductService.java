@@ -1,5 +1,6 @@
 package com.yangjianzhou.service;
 
+import com.yangjianzhou.bean.ResultGson;
 import com.yangjianzhou.dao.enums.ProductType;
 import com.yangjianzhou.dto.ProductDTO;
 import org.springframework.stereotype.Service;
@@ -12,9 +13,9 @@ import java.util.List;
  */
 
 @Service
-public class ProductService extends BaseService{
+public class ProductService extends BaseService {
 
-    public void saveProduct(){
+    public void saveProduct() {
         ProductDTO productDTO = new ProductDTO();
         productDTO.setName("thisi si ");
         productDTO.setType(ProductType.CLOTH);
@@ -25,11 +26,12 @@ public class ProductService extends BaseService{
         productDAO.insert(productDTO);
     }
 
-    public List<ProductDTO> getAllProduct(){
-        return productDAO.selectAll();
+    public ResultGson<List<ProductDTO>> getAllProduct() {
+        List<ProductDTO> productDTOs = productDAO.selectAll();
+        return new ResultGson<>("000", "success", productDTOs);
     }
 
-    public void updateProductName(int productId , int version , String name ){
+    public void updateProductName(int productId, int version, String name) {
         ProductDTO productDTO = new ProductDTO();
         productDTO.setUpdatedAt(new Date());
         productDTO.setUpdatedBy("SYS");
