@@ -17,4 +17,4 @@ out
 *.bak
 bin/
 data/*
-
+*workspace.xml
