@@ -1,11 +1,11 @@
-package com.yangjianzhou.enums;
+package com.yangjianzhou.dao.enums;
 
 /**
  * Created by yangjianzhou on 16-4-13.
  */
-public enum ProductType {
+public enum ProductType implements EnumValue{
 
-    BOOK(0),
+    BOOK(1),
     CLOTH(2),
     FOOD(3),
     ;
@@ -16,4 +16,9 @@ public enum ProductType {
         this.value = value ;
     }
 
+
+    @Override
+    public int getValue() {
+        return  value;
+    }
 }

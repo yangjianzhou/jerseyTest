@@ -6,5 +6,7 @@
 <sqlMapConfig>
     <settings cacheModelsEnabled="true" enhancementEnabled="false" lazyLoadingEnabled="false" maxRequests="3000"
               maxSessions="3000" maxTransactions="3000" useStatementNamespaces="true" errorTracingEnabled="false"/>
+    <typeHandler javaType="com.yangjianzhou.dao.enums.ProductType" callback="com.yangjianzhou.dao.typeHandler.ProductTypeTypeHandler" />
+
     <sqlMap resource="sqlmap/jersey/tbl_product.xml"/>
 </sqlMapConfig>

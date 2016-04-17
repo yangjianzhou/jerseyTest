@@ -15,55 +15,78 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/3.0.5.RELEASE/6b05e397566cc7750d2d25f81a7441fe1aeecb75/spring-context-3.0.5.RELEASE.jar!/"/>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/3.2.0.RELEASE/b01912a07f727ec6d269f5275e783d662d3bafde/spring-context-3.2.0.RELEASE.jar!/"/>
         </CLASSES>
-        <JAVADOC/>
+        <JAVADOC>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/3.2.0.RELEASE/8e130ecd7ec17d190a691a68d855650e4cda4a1e/spring-context-3.2.0.RELEASE-javadoc.jar!/"/>
+        </JAVADOC>
         <SOURCES>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/3.0.5.RELEASE/b1f911a36626dc3e134a63fba5f724d5b29c9589/spring-context-3.0.5.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/3.2.0.RELEASE/73d8d7cab4e34ead82722705b97171b308dc3bd3/spring-context-3.2.0.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/3.0.5.RELEASE/d5c550739c4c0cb7ca527ef46c9aed72fb215eee/spring-web-3.0.5.RELEASE.jar!/"/>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/3.2.0.RELEASE/1faf6a6438c43d273b6f2f7996d4a6d900b55b5a/spring-web-3.2.0.RELEASE.jar!/"/>
         </CLASSES>
-        <JAVADOC/>
+        <JAVADOC>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/3.2.0.RELEASE/92d7a84ceb33da2a0d657216737a82ff1b21ad57/spring-web-3.2.0.RELEASE-javadoc.jar!/"/>
+        </JAVADOC>
         <SOURCES>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/3.0.5.RELEASE/e30965cacab00533698e0b8835deaf274266d6c7/spring-web-3.0.5.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/3.2.0.RELEASE/adb42bc3d0658c2d5ce768f0b2cac16d34ba4110/spring-web-3.2.0.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/3.0.5.RELEASE/8b1c7176edb4a7e5381ffc5a398a5e2e8ed88909/spring-webmvc-3.0.5.RELEASE.jar!/"/>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/3.2.0.RELEASE/369f4366a41e0da8ac9cd253c18d7ffd12e0507c/spring-webmvc-3.2.0.RELEASE.jar!/"/>
         </CLASSES>
-        <JAVADOC/>
+        <JAVADOC>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/3.2.0.RELEASE/2518f107230dc6de970ba6930836c6c9b5a76584/spring-webmvc-3.2.0.RELEASE-javadoc.jar!/"/>
+        </JAVADOC>
         <SOURCES>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/3.0.5.RELEASE/5e2a2355c16938144e50d8981e47832bbcdcee8d/spring-webmvc-3.0.5.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/3.2.0.RELEASE/168c190e105c99c4f0e08cd9f292d3d0b3563875/spring-webmvc-3.2.0.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/3.0.5.RELEASE/cff2c955d1a510bab6e1eb2d1ced309f6ec37ce9/spring-orm-3.0.5.RELEASE.jar!/"/>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/3.2.0.RELEASE/bf931884f0fcf428862ca667572175911b2a3eb7/spring-tx-3.2.0.RELEASE.jar!/"/>
         </CLASSES>
-        <JAVADOC/>
+        <JAVADOC>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/3.2.0.RELEASE/118f4b57a47e11933a84481b74677f7ec3c755e9/spring-tx-3.2.0.RELEASE-javadoc.jar!/"/>
+        </JAVADOC>
         <SOURCES>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/3.0.5.RELEASE/7514e501c926fc793fb0214c7d4567021091e77d/spring-orm-3.0.5.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/3.2.0.RELEASE/c954281cd9f31bb79ce60d37cd72d8a82bb1a7de/spring-tx-3.2.0.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/3.0.5.RELEASE/4540fba71d41869a6ed5fb504317f2e702761690/spring-test-3.0.5.RELEASE.jar!/"/>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/3.2.0.RELEASE/3c1b6acae194203ece9cd03b8de3fd382055f7e2/spring-orm-3.2.0.RELEASE.jar!/"/>
         </CLASSES>
-        <JAVADOC/>
+        <JAVADOC>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/3.2.0.RELEASE/537150f0fc64fdaf30ff8d3f7867dd4eb43f4d/spring-orm-3.2.0.RELEASE-javadoc.jar!/"/>
+        </JAVADOC>
         <SOURCES>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/3.0.5.RELEASE/1d4bea4059bc8711933bc322b09875dc3cd3c1c3/spring-test-3.0.5.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/3.2.0.RELEASE/8554ac1fd1b8980dd9164f7a3a80a3ee01f3d2e2/spring-orm-3.2.0.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/3.2.0.RELEASE/c77f6ee4d83ef5b0105a5d8aec7d35c602c56f88/spring-test-3.2.0.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/3.2.0.RELEASE/f3bc8b207e17312269cbc157d5953fd78b339236/spring-test-3.2.0.RELEASE-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/3.2.0.RELEASE/f8de9ebe7c693efd1f3f5e52c50a84fe33eba6d4/spring-test-3.2.0.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
@@ -233,33 +256,52 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/3.0.5.RELEASE/c7a17803cc10512e26e285073639543f0c7c764/spring-aop-3.0.5.RELEASE.jar!/"/>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/3.2.0.RELEASE/1a80f0e1405219a19cf3e1b30812f73de8e117d/spring-core-3.2.0.RELEASE.jar!/"/>
         </CLASSES>
-        <JAVADOC/>
+        <JAVADOC>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/3.2.0.RELEASE/abf6a9f899885c0c34cb2818df0f2a92758627f9/spring-core-3.2.0.RELEASE-javadoc.jar!/"/>
+        </JAVADOC>
         <SOURCES>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/3.0.5.RELEASE/b3cb2378715a780add6fecf9d316fb899c153adb/spring-aop-3.0.5.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/3.2.0.RELEASE/91091c193613cdb0ca91450629d150fa634aa420/spring-core-3.2.0.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/3.0.5.RELEASE/5b8e53877cb58c94f15a0d8172da3569f4b4f3fb/spring-expression-3.0.5.RELEASE.jar!/"/>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/3.2.0.RELEASE/c2f83b789d0675ad7327f9aadb4f162106452ec5/spring-aop-3.2.0.RELEASE.jar!/"/>
         </CLASSES>
-        <JAVADOC/>
+        <JAVADOC>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/3.2.0.RELEASE/455ed24946a2843814485aa15b74f6f35a4b148/spring-aop-3.2.0.RELEASE-javadoc.jar!/"/>
+        </JAVADOC>
         <SOURCES>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/3.0.5.RELEASE/48ed82e050e351f5272c67a0c397c4e06f8a6a6d/spring-expression-3.0.5.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/3.2.0.RELEASE/37c3664275b11b275a31b47fda903db7057c1623/spring-aop-3.2.0.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-asm/3.0.5.RELEASE/7f22a0e9f325e6565b4ea56b479ad76311d146b/spring-asm-3.0.5.RELEASE.jar!/"/>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/3.2.0.RELEASE/b9273cb6246f57b40dced071ed04d80654ae5645/spring-expression-3.2.0.RELEASE.jar!/"/>
         </CLASSES>
-        <JAVADOC/>
+        <JAVADOC>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/3.2.0.RELEASE/5a08de41ff6371cb10680f9e150fd7bd1eb721d0/spring-expression-3.2.0.RELEASE-javadoc.jar!/"/>
+        </JAVADOC>
         <SOURCES>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-asm/3.0.5.RELEASE/a7af48d717c27d3e24c3b91f2ee7db071580bc5c/spring-asm-3.0.5.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/3.2.0.RELEASE/860fdb4461d3ae8d21b5422d641f2e2b90e3ecc6/spring-expression-3.2.0.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/3.2.0.RELEASE/70459b8d062753f8ce2441bcbb121b21c412d939/spring-beans-3.2.0.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/3.2.0.RELEASE/40d42d7d22280c5beae8821fe02377190e776d28/spring-beans-3.2.0.RELEASE-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/3.2.0.RELEASE/ad3c5b55ba655de682c281923f5f6d44781204b4/spring-beans-3.2.0.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
@@ -277,11 +319,13 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context-support/3.0.5.RELEASE/d954c447bf274048bd5a6b7ed575f15cd0924fd0/spring-context-support-3.0.5.RELEASE.jar!/"/>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/3.2.0.RELEASE/338dad7908d1f9bdee61bfb0480bcb9db088e05f/spring-jdbc-3.2.0.RELEASE.jar!/"/>
         </CLASSES>
-        <JAVADOC/>
+        <JAVADOC>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/3.2.0.RELEASE/4d0c65e9618a5f5f7c9fa813bad3a9ad18a9e67e/spring-jdbc-3.2.0.RELEASE-javadoc.jar!/"/>
+        </JAVADOC>
         <SOURCES>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context-support/3.0.5.RELEASE/d468eaca37360a905914cd05614d63df04c95181/spring-context-support-3.0.5.RELEASE-sources.jar!/"/>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/3.2.0.RELEASE/e41e085c43a72eda0267996237279e1d7a62f474/spring-jdbc-3.2.0.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
@@ -657,45 +701,6 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/3.2.0.RELEASE/338dad7908d1f9bdee61bfb0480bcb9db088e05f/spring-jdbc-3.2.0.RELEASE.jar!/"/>
-        </CLASSES>
-        <JAVADOC>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/3.2.0.RELEASE/4d0c65e9618a5f5f7c9fa813bad3a9ad18a9e67e/spring-jdbc-3.2.0.RELEASE-javadoc.jar!/"/>
-        </JAVADOC>
-        <SOURCES>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/3.2.0.RELEASE/e41e085c43a72eda0267996237279e1d7a62f474/spring-jdbc-3.2.0.RELEASE-sources.jar!/"/>
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/3.2.0.RELEASE/1a80f0e1405219a19cf3e1b30812f73de8e117d/spring-core-3.2.0.RELEASE.jar!/"/>
-        </CLASSES>
-        <JAVADOC>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/3.2.0.RELEASE/abf6a9f899885c0c34cb2818df0f2a92758627f9/spring-core-3.2.0.RELEASE-javadoc.jar!/"/>
-        </JAVADOC>
-        <SOURCES>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/3.2.0.RELEASE/91091c193613cdb0ca91450629d150fa634aa420/spring-core-3.2.0.RELEASE-sources.jar!/"/>
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/3.2.0.RELEASE/70459b8d062753f8ce2441bcbb121b21c412d939/spring-beans-3.2.0.RELEASE.jar!/"/>
-        </CLASSES>
-        <JAVADOC>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/3.2.0.RELEASE/40d42d7d22280c5beae8821fe02377190e776d28/spring-beans-3.2.0.RELEASE-javadoc.jar!/"/>
-        </JAVADOC>
-        <SOURCES>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/3.2.0.RELEASE/ad3c5b55ba655de682c281923f5f6d44781204b4/spring-beans-3.2.0.RELEASE-sources.jar!/"/>
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
           <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar!/"/>
         </CLASSES>
         <JAVADOC>
@@ -729,19 +734,6 @@
         </JAVADOC>
         <SOURCES>
           <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-server/1.19.1/c30da8252ad9e3762a8eb4dd70b57051a1837157/jersey-server-1.19.1-sources.jar!/"/>
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/3.2.0.RELEASE/bf931884f0fcf428862ca667572175911b2a3eb7/spring-tx-3.2.0.RELEASE.jar!/"/>
-        </CLASSES>
-        <JAVADOC>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/3.2.0.RELEASE/118f4b57a47e11933a84481b74677f7ec3c755e9/spring-tx-3.2.0.RELEASE-javadoc.jar!/"/>
-        </JAVADOC>
-        <SOURCES>
-          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/3.2.0.RELEASE/c954281cd9f31bb79ce60d37cd72d8a82bb1a7de/spring-tx-3.2.0.RELEASE-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>

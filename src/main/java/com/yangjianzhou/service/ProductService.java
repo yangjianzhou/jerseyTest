@@ -1,5 +1,6 @@
 package com.yangjianzhou.service;
 
+import com.yangjianzhou.dao.enums.ProductType;
 import com.yangjianzhou.dto.ProductDTO;
 import org.springframework.stereotype.Service;
 
@@ -15,7 +16,7 @@ public class ProductService extends BaseService{
     public void saveProduct(){
         ProductDTO productDTO = new ProductDTO();
         productDTO.setName("thisi si ");
-        productDTO.setType(1);
+        productDTO.setType(ProductType.CLOTH);
         productDTO.setCreatedAt(new Date());
         productDTO.setCreatedBy("SYS");
         productDTO.setUpdatedAt(new Date());
