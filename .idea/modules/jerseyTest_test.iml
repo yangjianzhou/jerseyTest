@@ -19,6 +19,7 @@
     <orderEntry type="library" name="Gradle: mysql:mysql-connector-java:5.1.38" level="project" />
     <orderEntry type="library" name="Gradle: org.unitils:unitils-database:3.4.2" level="project" />
     <orderEntry type="library" name="Gradle: org.unitils:unitils-dbunit:3.4.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.6.2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-dbcp2:2.1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.4" level="project" />
     <orderEntry type="library" name="Gradle: org.mybatis:mybatis:2.3.5" level="project" />

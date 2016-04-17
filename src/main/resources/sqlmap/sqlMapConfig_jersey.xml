@@ -9,4 +9,6 @@
     <typeHandler javaType="com.yangjianzhou.dao.enums.ProductType" callback="com.yangjianzhou.dao.typeHandler.ProductTypeTypeHandler" />
 
     <sqlMap resource="sqlmap/jersey/tbl_product.xml"/>
+    <sqlMap resource="sqlmap/jersey/tbl_trade_record.xml"/>
+    <sqlMap resource="sqlmap/jersey/tbl_user.xml"/>
 </sqlMapConfig>

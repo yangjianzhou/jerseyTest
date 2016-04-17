@@ -7,8 +7,14 @@ import com.yangjianzhou.dao.enums.ProductType;
  */
 public class ProductDTO extends BaseDTO{
 
+    /**
+     * 产品名字
+     */
     private String name ;
 
+    /**
+     * 产品类型
+     */
     private ProductType type ;
 
     public String getName() {

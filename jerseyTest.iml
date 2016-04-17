@@ -130,6 +130,19 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.2/f1bc476cc167b18e66c297df599b2377131a8947/gson-2.6.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.2/b429363c56e1b4c8d9053662946a25e8b0acc781/gson-2.6.2-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.2/6d8591dcd32b4b97808d3ed78d76c6272299309c/gson-2.6.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
           <root url="jar:///home/yangjianzhou/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-dbcp2/2.1.1/c4f4a76171671ccf293be8995a498eab7fa8ed24/commons-dbcp2-2.1.1.jar!/"/>
         </CLASSES>
         <JAVADOC>

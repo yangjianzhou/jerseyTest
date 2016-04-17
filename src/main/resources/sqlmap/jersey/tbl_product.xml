@@ -4,7 +4,7 @@
     <resultMap id="BaseResultMap" class="com.yangjianzhou.dto.ProductDTO">
         <result column="ID" property="id" jdbcType="DECIMAL" />
         <result column="CREATED_AT" property="createdAt" jdbcType="TIMESTAMP" />
-        <result column="CREATED_BY" property="createdBy" jdbcType="DECIMAL" />
+        <result column="CREATED_BY" property="createdBy" jdbcType="VARCHAR" />
         <result column="UPDATED_AT" property="updatedAt" jdbcType="TIMESTAMP" />
         <result column="UPDATED_BY" property="updatedBy" jdbcType="VARCHAR" />
         <result column="NAME" property="name" jdbcType="VARCHAR" />
@@ -22,5 +22,26 @@
         insert into tb_product(CREATED_AT , CREATED_BY , UPDATED_AT , UPDATED_BY , NAME , TYPE ,VERSION)
         values( now(), #createdBy#,now(),#updatedBy# , #name# , #type# , 1)
     </insert>
+
+    <select id="selectAll" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from tb_product
+        order by updated_at desc
+    </select>
+
+    <update id="updateNameById" parameterClass="java.util.Map">
+        update
+            tb_product
+        set
+            name = #name#,
+            updated_at = now(),
+            updated_by = #updatedBy#,
+            version=version+1
+        where
+            id = #id#
+        and
+            version = #version#
+    </update>
 
 </sqlMap>
